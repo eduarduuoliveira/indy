@@ -13,6 +13,7 @@
     crossorigin="anonymous"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Josefin+Sans&display=swap');
+
     .capa {
       text-align: left;
       margin-top: -30px;
@@ -20,7 +21,7 @@
       width: 70%;
     }
 
- 
+
 
     nav {
       font-size: 20px;
@@ -97,7 +98,7 @@
         width: 700px;
         height: 400px;
       }
-
+      .block w-full
       #home1 {
         margin-left: 20px;
       }
@@ -131,7 +132,7 @@
         margin-top: 40px;
       }
 
-      .text-nos{
+      .text-nos {
         font-family: 'Josefin Sans', sans-serif;
         font-size: 1.4em;
         padding-bottom: 40px;
@@ -150,7 +151,8 @@
         display: grid;
         grid-template-columns: repeat(3, 33%);
       }
-      .topicos{
+
+      .topicos {
         border-left: solid 4px gold;
         padding-left: 10px;
       }
@@ -162,24 +164,30 @@
         text-align: center;
       }
 
-      .container-foto{
-        
-        width: 550px;
-        height: 410px;
-      }
-      #text-quem{
+
+
+      #text-quem {
         padding-top: 25px;
       }
-      #foto-logo{
+
+      #foto-logo {
         height: 400px;
         border-radius: 100px;
         border: 5px solid gold;
       }
-      #carouselExampleCaptions{
-      margin-top: 0px;
-      }
-      #subtitulo-div{
+
+      #carouselExampleCaptions {
+        margin-top: 0px;
+      }id
+
+      #subtitulo-div {
         float: right;
+      }
+      .subcontainer{
+        padding-bottom: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        
       }
     }
   </style>
@@ -238,7 +246,7 @@
       </div>
       <div class="carousel-inner relative w-full overflow-hidden">
         <div class="carousel-item active relative float-left w-full">
-          <img src="img/carro1.jpeg" class="block w-full" alt="..." />
+          <img class="fotosCarrousel" src="img/carro1.jpeg" class="block w-full" alt="..." />
           <div class="carousel-caption      .row-container{
             will-change: auto;
             transition-timing-function: ease;
@@ -254,14 +262,14 @@
           </div>
         </div>
         <div class="carousel-item relative float-left w-full">
-          <img src="img/carro4.jpeg" class="block w-full" alt="..." />
+          <img class="fotosCarrousel" src="img/carro4.jpeg" class="block w-full" alt="..." />
           <div class="carousel-caption hidden md:block absolute text-center">
 
 
           </div>
         </div>
         <div class="carousel-item relative float-left w-full">
-          <img src="img/carro3.jpeg" class="block w-full" alt="..." />
+          <img class="fotosCarrousel" src="img/carro3.jpeg" class="block w-full" alt="..." />
           <div class="carousel-caption hidden md:block absolute text-center">
 
 
@@ -299,35 +307,42 @@
         </p>
 
         <!-- <iframe class="mapaIfc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.882221724451!2d-48.74050368502698!3d-26.394992483353278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb5609af7afc5%3A0x34c75ce16022aa6a!2sInstituto%20Federal%20Catarinense%20Campus%20Araquari!5e0!3m2!1spt-BR!2sbr!4v1665142332918!5m2!1spt-BR!2sbr" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-      <div id="conatiner-logo">  <div class="container-foto" ><img id="foto-logo" src="img/carro2.jpeg" alt=""></div></div>
         <div class="subcontainer">
-          <div id="subtitulo-div" ><h2 class="subtitulo">
+          <div id="conatiner-logo">
+          <img id="foto-logo" src="img/carro2.jpeg" alt="">
+          </div>
+          <div>
+          <h2 class="subtitulo">
             Por que contratar a IndyTour?
-          </h2></div>
-          <p id="text-quem" class="text-nos">Contratar um empresa especializada em transporte escolar irá lhe oferecer uma maior
-            segurança e sucesso em seu transporte</p>
+          </h2>
+          <p id="text-quem" class="text-nos">Contratar um empresa especializada em transporte escolar irá lhe oferecer
+            uma maior
+            segurança e sucesso em seu transporte</p></div>
         </div>
 
         <div class="container-topicos">
           <div class="container-inner">
 
-            <div class="topicos"><h4><b>Veiculos legalizados</b></h4>
-            <p class="text-topicos">Frotas de veiculos devidamente legalizados, segurasdos e registrados. Temos: Vans
-              e Microônibus que estão sempre a disposição de nossos clientes;</p>
-            </div>
-          </div>
-          <div class="container-inner">
-            
-            <div class="topicos"><h4><b>Conforto</b></h4>
-            <p class="text-topicos">Veículos devidamente higiênizados, wifi gratuito por toda frota, ar condicionado
-              sempre a disposição e muito conforto ao dispor de nossos clientes;</p>
+            <div class="topicos">
+              <h4><b>Veiculos legalizados</b></h4>
+              <p class="text-topicos">Frotas de veiculos devidamente legalizados, segurasdos e registrados. Temos: Vans
+                e Microônibus que estão sempre a disposição de nossos clientes;</p>
             </div>
           </div>
           <div class="container-inner">
 
-            <div class="topicos"><h4><b>Motoristas profissionais</b></h4>
-            <p class="text-topicos">Devidamente registrados e qualificados para o atendimento de nossos clientes.</p>
+            <div class="topicos">
+              <h4><b>Conforto</b></h4>
+              <p class="text-topicos">Veículos devidamente higiênizados, wifi gratuito por toda frota, ar condicionado
+                sempre a disposição e muito conforto ao dispor de nossos clientes;</p>
+            </div>
           </div>
+          <div class="container-inner">
+
+            <div class="topicos">
+              <h4><b>Motoristas profissionais</b></h4>
+              <p class="text-topicos">Devidamente registrados e qualificados para o atendimento de nossos clientes.</p>
+            </div>
           </div>
         </div>
       </div>
